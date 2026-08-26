@@ -1,0 +1,38 @@
+/* Mismos colores que la app, para que el sitio no parezca de otra empresa. */
+:root{
+  --bg:#FDF2DF; --surface:#FFFFFF; --border:#D3B788;
+  --text:#2D2A32; --text-soft:#6B6570; --acento:#AB540B; --sol:#FF9440;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#15120C; --surface:#211D16; --border:#4A4234; --text:#F4EFE7; --text-soft:#BCB4A7; --acento:#FF9440; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  line-height:1.65; -webkit-font-smoothing:antialiased;
+}
+.envoltura{max-width:720px; margin:0 auto; padding:32px 22px 72px}
+header{display:flex; align-items:center; gap:12px; margin-bottom:34px}
+header svg{width:42px; height:42px; flex-shrink:0}
+header .marca{font-weight:700; font-size:19px; letter-spacing:-.01em}
+header a{color:inherit; text-decoration:none; display:flex; align-items:center; gap:12px}
+h1{font-size:31px; line-height:1.2; letter-spacing:-.02em; margin:0 0 6px}
+h2{font-size:20px; letter-spacing:-.01em; margin:34px 0 8px}
+.fecha{color:var(--text-soft); font-size:14px; margin:0 0 30px}
+p,li{color:var(--text); font-size:16px}
+li{margin-bottom:7px}
+strong{font-weight:700}
+a{color:var(--acento)}
+hr{border:none; border-top:1.5px solid var(--border); margin:34px 0}
+.tarjeta{background:var(--surface); border:1.5px solid var(--border); border-radius:16px; padding:18px 20px; margin:26px 0}
+.tarjeta p:last-child{margin-bottom:0}
+.tarjeta p:first-child{margin-top:0}
+footer{margin-top:52px; padding-top:22px; border-top:1.5px solid var(--border); color:var(--text-soft); font-size:14px}
+footer a{margin-right:16px}
+.botones{display:flex; flex-wrap:wrap; gap:12px; margin-top:26px}
+.boton{
+  display:inline-block; padding:13px 22px; border-radius:14px; text-decoration:none;
+  font-weight:700; background:var(--sol); color:#2D2A32; border:1.5px solid transparent;
+}
+.boton.secundario{background:transparent; color:var(--text); border-color:var(--border)}

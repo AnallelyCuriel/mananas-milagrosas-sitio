@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="Mañanas Milagrosas">
+  <defs>
+    <linearGradient id="tinta" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#212B3B"/>
+      <stop offset="100%" stop-color="#161D28"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="340" fill="url(#tinta)"/>
+  <g transform="translate(450 116) scale(0.78) translate(-100 -110)">
+    <circle cx="100" cy="84" r="34" fill="none" stroke="#C89B3C" stroke-width="4"/>
+    <line x1="38" y1="142" x2="162" y2="142" stroke="#C89B3C" stroke-width="4.4" stroke-linecap="round"/>
+    <line x1="54" y1="163" x2="146" y2="163" stroke="#C89B3C" stroke-width="3.4" stroke-linecap="round" opacity="0.72"/>
+    <line x1="70" y1="181" x2="130" y2="181" stroke="#C89B3C" stroke-width="2.8" stroke-linecap="round" opacity="0.45"/>
+  </g>
+  <text x="450" y="252" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="62" fill="#F6EFE1">Mañanas</text>
+  <text x="450" y="288" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19" letter-spacing="7" fill="#C89B3C">MILAGROSAS</text>
+</svg>

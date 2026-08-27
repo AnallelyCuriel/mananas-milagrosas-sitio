@@ -16,11 +16,17 @@
 <div class="envoltura">
 <header>
   <a href="./">
-    <svg viewBox="0 0 64 64" aria-hidden="true">
-      <circle cx="32" cy="27" r="17" fill="#FFD9A8"/>
-      <circle cx="32" cy="27" r="12" fill="#FF9440"/>
-      <path d="M6 44 C 18 38, 26 50, 38 44 C 46 40, 54 44, 58 47" stroke="#4E7A54" stroke-width="4" fill="none" stroke-linecap="round"/>
-      <path d="M6 52 C 18 46, 26 58, 38 52 C 46 48, 54 52, 58 55" stroke="#8FB294" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <svg viewBox="0 0 200 200" aria-hidden="true">
+      <defs>
+        <linearGradient id="tintaMarca" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#212B3B"/><stop offset="100%" stop-color="#161D28"/>
+        </linearGradient>
+      </defs>
+      <rect width="200" height="200" rx="44" fill="url(#tintaMarca)"/>
+      <circle cx="100" cy="84" r="34" fill="none" stroke="#C89B3C" stroke-width="6"/>
+      <line x1="38" y1="142" x2="162" y2="142" stroke="#C89B3C" stroke-width="6.5" stroke-linecap="round"/>
+      <line x1="54" y1="163" x2="146" y2="163" stroke="#C89B3C" stroke-width="5" stroke-linecap="round" opacity="0.72"/>
+      <line x1="70" y1="181" x2="130" y2="181" stroke="#C89B3C" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
     </svg>
     <span class="marca">Mañanas Milagrosas</span>
   </a>
